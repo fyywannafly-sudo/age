@@ -7,34 +7,37 @@
 
     local player = game.Players.LocalPlayer
 
+
 -- Multi-track URLs
 local tracksURLs = {
-    ["1"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN1.json",
-    ["2"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN2.json",
-    ["3"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN3.json",
-    ["4"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN4.json",
-    ["5"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN5.json",
-    ["6"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN6.json",
-    ["7"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN7.json",
-    ["8"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN8.json",
-    ["9"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN9.json",
-    ["10"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN10.json",
-    ["11"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN11.json",
-    ["12"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN12.json",
-    ["13"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN13.json",
-    ["14"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN14.json",
-    ["15"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN15.json",
-    ["16"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN16.json",
-    ["17"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN17.json",
-    ["18"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN18.json",
-    ["19"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN19.json",
-    ["20"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN20.json",
-    ["21"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN21.json",
-    ["22"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN22.json",
-    ["23"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN23.json",
-    ["24"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN24.json",
-    ["25"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN25.json",
-    ["26"] = "https://raw.githubusercontent.com/fyywannafly-sudo/WalkOnly/refs/heads/main/ATIN26.json",
+    ["1"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T1.json",
+    ["2"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T2.json",
+    ["3"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T3.json",
+    ["4"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T4.json",
+    ["5"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T5.json",
+    ["6"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T6.json",
+    ["7"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T7.json",
+    ["8"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T8.json",
+    ["9"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T9.json",
+    ["10"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T10.json",
+    ["11"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T11.json",
+    ["12"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T12.json",
+    ["13"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T13.json",
+    ["14"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T14.json",
+    ["15"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T15.json",
+    ["16"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T16.json",
+    ["17"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T17.json",
+    ["18"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T18.json",
+    ["19"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T19.json",
+    ["20"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T20.json",
+    ["21"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T21.json",
+    ["22"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T22.json",
+    ["23"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T23.json",
+    ["24"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T24.json",
+    ["25"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T25.json",
+    ["26"] = "https://raw.githubusercontent.com/fyybisnis4-gif/idkz/refs/heads/main/ATIN_T26.json"
+
+
 }
 
 local savedTracks = {}
@@ -44,6 +47,7 @@ local orderedTrackNames = {
     "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
     "21", "22", "23", "24", "25", "26"
 }
+
     -- Load Tracks
     for _, name in ipairs(orderedTrackNames) do
         local url = tracksURLs[name]
@@ -66,9 +70,9 @@ local orderedTrackNames = {
     -- Variables
     local running = false
     local speed = 16
-    local rotationBlend = 0.12
+    local rotationBlend = 0.17
 
-    local verticalOffset = 0
+    local verticalOffset = -3
     local avatarHeightOffset = 0
     local enableHeightFilter = false  -- ✅ TAMBAH INI JIKA MASIH MAU PAKAI
     local minY = -math.huge           -- ✅ TAMBAH INI JIKA MASIH MAU PAKAI  
@@ -227,9 +231,13 @@ local orderedTrackNames = {
         return nearestTrack, nearestPoint
     end
 
- -- Respawn function
 local function respawnPlayer()
-    player.Character:BreakJoints()
+    local char = player.Character or player.CharacterAdded:Wait()
+    local hrp = char:WaitForChild("HumanoidRootPart")
+
+    -- Teleport ke SummitReturnPad
+    local pad = workspace:WaitForChild("Checkpoints"):WaitForChild("cp17")
+    hrp.CFrame = pad.CFrame + Vector3.new(0, 5, 0) -- offset supaya ga nancep di part
 end
 
     -- FUNCTION TRIGGERJUMP
@@ -345,7 +353,7 @@ if lookDir.Magnitude < 0.1 then
     lookDir = Vector3.new(0, 0, 1)
 end
 
-local blend = 0.12
+local blend = 0.17
 local targetCFrame = CFrame.new(currentPos, currentPos + lookDir)
 local lerped = hrp.CFrame:Lerp(targetCFrame, blend)
 hrp.CFrame = CFrame.new(currentPos) * (lerped - lerped.Position)
@@ -445,7 +453,7 @@ if lookDir.Magnitude < 0.1 then
     lookDir = Vector3.new(0, 0, 1)
 end
 
-local blend = 0.12
+local blend = 0.17
 local targetCFrame = CFrame.new(currentPos, currentPos + lookDir)
 local lerped = hrp.CFrame:Lerp(targetCFrame, blend)
 hrp.CFrame = CFrame.new(currentPos) * (lerped - lerped.Position)
@@ -568,7 +576,7 @@ end
 
             if running then
                 print("Completed all tracks, teleporting to SummitReturnPad...")
-                respawnPlayaer()
+                respawnPlayer()
                 task.wait(1)
 
                 startTrackIndex, startPointIndex = findNearestTrackAndPoint()
@@ -671,7 +679,7 @@ Instance.new("UICorner", optionTinggi).CornerRadius = UDim.new(0, 4)
 local autoBtn = Instance.new("TextButton", Frame)
 autoBtn.Size = UDim2.new(0.9, 0, 0, 40)
 autoBtn.Position = UDim2.new(0.05, 0, 0, 140)
-autoBtn.Text = "AUTO SUMMIT"
+autoBtn.Text = "AUTO SUMMIT (Loop)"
 autoBtn.BackgroundColor3 = Color3.fromRGB(0, 60, 100)
 autoBtn.TextColor3 = Color3.fromRGB(200, 200, 200)
 autoBtn.TextScaled = true
@@ -717,11 +725,11 @@ Instance.new("UICorner", stopAllBtn).CornerRadius = UDim.new(0, 8)
 
 -- ✅ FUNCTION UNTUK DAPATIN NAMA OFFSET SEKARANG - PERBAIKI INI!
 local function getCurrentOffsetName()
-    if verticalOffset == 0 then
+    if verticalOffset == -3 then
         return "DEFAULT STANDART"
-    elseif verticalOffset == -1 then
+    elseif verticalOffset == -4 then
         return "MINI"
-    elseif verticalOffset == 3 then
+    elseif verticalOffset == 0 then
         return "TINGGI"  
     else
         return "CUSTOM"
@@ -773,6 +781,7 @@ local function toggleOffsetOptions()
 end
 
 -- ✅ FUNCTION UNTUK SET OFFSET
+-- ✅ FUNCTION UNTUK SET OFFSET - PERBAIKI NILAINYA
 local function setOffset(offsetValue, optionName)
     verticalOffset = offsetValue
     offsetButton.Text = "AVATAR: " .. optionName
@@ -789,21 +798,21 @@ end
 offsetButton.MouseButton1Click:Connect(toggleOffsetOptions)
 
 optionDefault.MouseButton1Click:Connect(function()
-    setOffset(0, "DEFAULT STANDART")  -- DEFAULT = 0
+    setOffset(-3, "DEFAULT STANDART")  -- DEFAULT = -3
 end)
 
 optionMini.MouseButton1Click:Connect(function()
-    setOffset(-1, "MINI")  -- MINI = -3
+    setOffset(-4, "MINI")  -- MINI = -4
 end)
 
 optionTinggi.MouseButton1Click:Connect(function()
-    setOffset(3, "TINGGI")
+    setOffset(0, "TINGGI")  -- TINGGI = 0
 end)
 
 resetAvatarBtn.MouseButton1Click:Connect(function()
-    verticalOffset = 0
-    offsetButton.Text = "AVATAR: DEFAULT STANDART"
-    print("✅ Track vertical offset direset ke DEFAULT (0)")
+    -- Hanya reset avatar height, jangan ubah track offset
+    resetAvatarHeight()
+    print("✅ Avatar height direset ke normal")
 end)
 
 -- Sisanya tetap sama...
