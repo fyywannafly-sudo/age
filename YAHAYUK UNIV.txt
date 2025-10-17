@@ -209,7 +209,7 @@ local orderedTrackNames = {"1", "2", "3", "4", "5", "6"}
     local hrp = char:WaitForChild("HumanoidRootPart")
 
     -- Teleport ke SummitReturnPad
-    local pad = workspace:WaitForChild("SummitReturnPad")
+    local pad = workspace:WaitForChild("GlobalTeleport"):WaitForChild("PARTS")
     hrp.CFrame = pad.CFrame + Vector3.new(0, 5, 0) -- offset supaya ga nancep di part
 end
 
@@ -1001,3 +1001,4 @@ local function setupDrag(target)
     end)
 end
 setupDrag(Frame)
+
