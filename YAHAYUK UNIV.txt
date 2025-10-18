@@ -9,12 +9,12 @@
 
 -- Multi-track URLs
 local tracksURLs = {
-    ["1"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/YNT_1.json",
-    ["2"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/YNT_2.json",
-    ["3"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/YNT_3.json",
-    ["4"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/YNT_4.json",
-    ["5"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/YNT_5.json",
-    ["6"] = "https://raw.githubusercontent.com/fyywannafly-sudo/FreeKeySystemXd/refs/heads/main/YNT_6.json",
+    ["1"] = "https://raw.githubusercontent.com/fyywannafly-sudo/YahayukOnly/refs/heads/main/YNT1.json",
+    ["2"] = "https://raw.githubusercontent.com/fyywannafly-sudo/YahayukOnly/refs/heads/main/YNT2.json",
+    ["3"] = "https://raw.githubusercontent.com/fyywannafly-sudo/YahayukOnly/refs/heads/main/YNT3.json",
+    ["4"] = "https://raw.githubusercontent.com/fyywannafly-sudo/YahayukOnly/refs/heads/main/YNT4.json",
+    ["5"] = "https://raw.githubusercontent.com/fyywannafly-sudo/YahayukOnly/refs/heads/main/YNT5.json",
+    ["6"] = "https://raw.githubusercontent.com/fyywannafly-sudo/YahayukOnly/refs/heads/main/YNT6.json",
 
 }
 
@@ -1001,4 +1001,3 @@ local function setupDrag(target)
     end)
 end
 setupDrag(Frame)
-
