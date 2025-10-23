@@ -9,23 +9,22 @@
 
 -- Multi-track URLs
 local tracksURLs = {
-    ["1"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kt1.json",
-    ["2"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kt2.json",
-    ["3"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kt3.json",
-    ["4"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kt4.json",
-    ["5"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kt5.json",
-    ["6"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kt6.json",
-    ["7"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kt7.json",
-    ["8"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kt8.json",
-    ["9"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kt9.json",
-    ["10"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kt10.json",
-    ["11"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kt11.json"
+    ["1"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kota1.json",
+    ["2"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kota2.json",
+    ["3"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kota3.json",
+    ["4"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kota4.json",
+    ["5"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kota5.json",
+    ["6"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kota6.json",
+    ["7"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kota7.json",
+    ["8"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kota8.json",
+    ["9"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kota9.json",
+    ["10"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/kota10.json"
 
 
 }
 
 local savedTracks = {}
-local orderedTrackNames = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"}
+local orderedTrackNames = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"}
 
     -- Load Tracks
     for _, name in ipairs(orderedTrackNames) do
