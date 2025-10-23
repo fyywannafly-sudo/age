@@ -558,7 +558,7 @@ end
 
  -- GUI Setup
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "KOTA_BUKAN_GUNUNG"
+ScreenGui.Name = "KAWAH"
 ScreenGui.Parent = CoreGui
 
 local Frame = Instance.new("Frame", ScreenGui)
@@ -570,7 +570,7 @@ Instance.new("UICorner", Frame).CornerRadius = UDim.new(0, 8)
 
 local Title = Instance.new("TextLabel", Frame)
 Title.Size = UDim2.new(1, 0, 0, 30)
-Title.Text = "KOTA BUKAN GUNUNG"
+Title.Text = "MT KAWAH"
 Title.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 Title.TextColor3 = Color3.fromRGB(180, 180, 180)
 Title.TextScaled = true
