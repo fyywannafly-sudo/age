@@ -9,12 +9,13 @@
 
 -- Multi-track URLs
 local tracksURLs = {
-    ["1"] = "https://raw.githubusercontent.com/fyywannafly-sudo/YahayukOnly/refs/heads/main/YNT1.json",
-    ["2"] = "https://raw.githubusercontent.com/fyywannafly-sudo/YahayukOnly/refs/heads/main/YNT2.json",
-    ["3"] = "https://raw.githubusercontent.com/fyywannafly-sudo/YahayukOnly/refs/heads/main/YNT3.json",
-    ["4"] = "https://raw.githubusercontent.com/fyywannafly-sudo/YahayukOnly/refs/heads/main/YNT4.json",
-    ["5"] = "https://raw.githubusercontent.com/fyywannafly-sudo/YahayukOnly/refs/heads/main/YNT5.json",
-    ["6"] = "https://raw.githubusercontent.com/fyywannafly-sudo/YahayukOnly/refs/heads/main/YNT6.json",
+    ["1"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/CP1.json",
+    ["2"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/CP2.json",
+    ["3"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/CP3.json",
+    ["4"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/CP4.json",
+    ["5"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/CP5.json",
+    ["6"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/CP6.json"
+
 
 }
 
