@@ -9,16 +9,17 @@
 
 -- Multi-track URLs
 local tracksURLs = {
-    ["1"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/ARU1.json",
-    ["2"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/ARU2.json",
-    ["3"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/ARU3.json",
-    ["4"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/ARU4.json",
-    ["5"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/ARU5.json",
-    ["6"] = "https://raw.githubusercontent.com/fyywannafly-sudo/PremKeySystemXd/refs/heads/main/ARU6.json",
+    ["1"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/ARUNIKA_1.json",
+    ["2"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/ARUNIKA_SBLM_GOA_2.json",
+    ["3"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/ARUNIKA_2.json",
+    ["4"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/ARUNIKA_3.json",
+    ["5"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/ARUNIKA_4.json",
+    ["6"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/ARUNIKA_5.json",
+    ["7"] = "https://raw.githubusercontent.com/mizuu-cloud/mizuu-autowok/refs/heads/main/SUMMIT_JALUR_TANGGA_KIRI.json",
 }
 
 local savedTracks = {}
-local orderedTrackNames = {"1", "2", "3", "4", "5", "6"}
+local orderedTrackNames = {"1", "2", "3", "4", "5", "6", "7"}
 
     -- Load Tracks
     for _, name in ipairs(orderedTrackNames) do
@@ -693,11 +694,11 @@ Instance.new("UICorner", stopAllBtn).CornerRadius = UDim.new(0, 8)
 
 -- ✅ FUNCTION UNTUK DAPATIN NAMA OFFSET SEKARANG - PERBAIKI INI!
 local function getCurrentOffsetName()
-    if verticalOffset == 0 then
+    if verticalOffset == -3 then
         return "DEFAULT STANDART"
-    elseif verticalOffset == -1 then
+    elseif verticalOffset == -4 then
         return "MINI"
-    elseif verticalOffset == 3 then
+    elseif verticalOffset == 0 then
         return "TINGGI"  
     else
         return "CUSTOM"
@@ -765,15 +766,15 @@ end
 offsetButton.MouseButton1Click:Connect(toggleOffsetOptions)
 
 optionDefault.MouseButton1Click:Connect(function()
-    setOffset(0, "DEFAULT STANDART")  -- DEFAULT = 0
+    setOffset(-3, "DEFAULT STANDART")  -- DEFAULT = 0
 end)
 
 optionMini.MouseButton1Click:Connect(function()
-    setOffset(-1, "MINI")  -- MINI = -3
+    setOffset(-4, "MINI")  -- MINI = -3
 end)
 
 optionTinggi.MouseButton1Click:Connect(function()
-    setOffset(3, "TINGGI")
+    setOffset(0, "TINGGI")
 end)
 
 resetAvatarBtn.MouseButton1Click:Connect(function()
