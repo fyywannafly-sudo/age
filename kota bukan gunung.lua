@@ -9,13 +9,18 @@
 
 -- Multi-track URLs
 local tracksURLs = {
-    ["1"] = "https://raw.githubusercontent.com/fyywannafly-sudo/age/refs/heads/main/kota11",
-    ["2"] = "https://raw.githubusercontent.com/fyywannafly-sudo/age/refs/heads/main/kota22",
-    ["3"] = "https://raw.githubusercontent.com/fyywannafly-sudo/age/refs/heads/main/kota33",
+    ["1"] = "https://raw.githubusercontent.com/mizuu-cloud/Mizuuwok/refs/heads/main/KBG_BC_DAN_4.json",
+    ["2"] = "https://raw.githubusercontent.com/mizuu-cloud/Mizuuwok/refs/heads/main/KBG_4_DAN_7.json",
+    ["3"] = "https://raw.githubusercontent.com/mizuu-cloud/Mizuuwok/refs/heads/main/KBG_7__10.json",
+    ["4"] = "https://raw.githubusercontent.com/mizuu-cloud/Mizuuwok/refs/heads/main/KBG_11.json",
+    ["5"] = "https://raw.githubusercontent.com/mizuu-cloud/Mizuuwok/refs/heads/main/KBG_12.json",
+    ["6"] = "https://raw.githubusercontent.com/mizuu-cloud/Mizuuwok/refs/heads/main/KBG_12_DAN_18.json",
+    ["7"] = "https://raw.githubusercontent.com/mizuu-cloud/Mizuuwok/refs/heads/main/KBG_SUMMIT.json"
+
 }
 
 local savedTracks = {}
-local orderedTrackNames = {"1","2","3"}
+local orderedTrackNames = {"1","2","3","4","5","6","7"}
 
     -- Load Tracks
     for _, name in ipairs(orderedTrackNames) do
